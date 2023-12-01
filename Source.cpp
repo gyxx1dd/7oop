@@ -38,12 +38,7 @@ public:
 
 };
 
-bool operator==(const Student& first, const Student& second)
-{
-	return (first.getLastName() == second.getLastName() &&
-		first.getUniqueNumber() == second.getUniqueNumber() &&
-		first.getRating() == second.getRating());
-}
+
 
 
 
